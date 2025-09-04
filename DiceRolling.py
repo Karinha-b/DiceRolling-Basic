@@ -4,10 +4,10 @@ rolls = 0
 
 #loop
 while True:
-    #counter
         # Ask: roll dice
     choice = input ('Roll the dice (y/n): ').lower() #makes sure whatever the user types is lowercase
     if choice == 'y':
+        #counter
         rolls += 1
         #generate two random numbers
         dieOne = random.randint(1, 6)
@@ -24,4 +24,5 @@ while True:
     else:
         print('invalid choice.')
     # invalid choice
+
 
